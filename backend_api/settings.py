@@ -106,6 +106,7 @@ TIME_ZONE = "UTC"
 USE_I18N = True
 USE_TZ = True
 
+# Change later once the frontend is deployed
 CORS_ALLOW_ALL_ORIGINS = True
 
 STATIC_URL = "static/"
