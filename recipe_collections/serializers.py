@@ -2,6 +2,7 @@ from rest_framework import serializers
 from .models import RecipeCollection
 
 
+# collections serializers
 class RecipeCollectionSerializers(serializers.ModelSerializer):
     recipe_count = serializers.ReadOnlyField()
 
